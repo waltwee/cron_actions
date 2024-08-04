@@ -3,7 +3,7 @@ name: Run Tests Every 20 Minutes
 on:
   schedule:
     - cron: '*/20 * * * *'
-  workflow_dispatch:  # Позволяет запуск вручную
+  workflow_dispatch:
 
 jobs:
   run-tests:

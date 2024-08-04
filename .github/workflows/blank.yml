@@ -21,4 +21,4 @@ jobs:
         run: npm install
 
       - name: Run tests
-        run: node Tests/Login/a4ubet.com.js
+        run: npm run test:all

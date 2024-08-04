@@ -1,8 +1,8 @@
-name: Run Tests Every 21 Minutes
+name: Run Tests Every 20 Minutes
 
 on:
   schedule:
-    - cron: '*/21 * * * *'
+    - cron: '*/20 * * * *'
 
 jobs:
   run-tests:
@@ -21,4 +21,4 @@ jobs:
         run: npm install
 
       - name: Run tests
-        run: node Forzza/forzzagold.com.js
+        run: node Tests/Login/a4ubet.com.js

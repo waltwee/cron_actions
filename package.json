@@ -141,7 +141,7 @@
     "yargs-parser": "^20.2.9"
   },
   "scripts": {
-    "test:all": "node /a4ubet.com.js"
+    "test:all": "node cron_actions/a4ubet.com.js"
   },
   "author": "",
   "license": "ISC",

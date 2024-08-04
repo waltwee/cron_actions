@@ -1,8 +1,8 @@
-name: Run Tests Every 20 Minutes
+name: Run Tests Every 21 Minutes
 
 on:
   schedule:
-    - cron: '*/20 * * * *'
+    - cron: '*/21 * * * *'
 
 jobs:
   run-tests:
